@@ -14,7 +14,7 @@ Please run:
 npm i 
 npm start
 
-live version available: https://vorstermans.netlify.app/
+live version available: https://vorstermans.netlify.app/ (not currently up to date, will not work)
 
 
 Package.json:  
