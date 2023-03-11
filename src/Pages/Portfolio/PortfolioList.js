@@ -13,7 +13,7 @@ const PortfolioList = () => {
   useEffect(() => {
     const getAllEntries = async () => {
       try {
-        await client.getEntries().then((entries) => {
+        await client.getEntries({content_type: "completedProject"}).then((entries) => {
           setProjectItems(entries);
         });
       } catch (error) {
@@ -43,28 +43,29 @@ const PortfolioList = () => {
                 <div>
                   <img
                     className="portimage"
-                    src={post.fields.image1.fields.file.url}
+                    src={post.fields?.image1?.fields?.file.url}
+                    
                     alt={completedProject?.fields?.image1.fields?.description}
                   />
                 </div>
                 <div>
                   <img
                     className="portimage"
-                    src={post.fields.image2.fields.file.url}
+                    src={post.fields?.image2?.fields?.file.url}
                     alt={completedProject?.fields?.image2.fields?.description}
                   />
                 </div>
                 <div>
                   <img
                     className="portimage "
-                    src={post.fields.image3.fields.file.url}
+                    src={post.fields?.image3?.fields?.file.url}
                     alt={completedProject?.fields?.image3.fields?.description}
                   />
                 </div>
                 <div>
                   <img
                     className="portimage"
-                    src={post.fields.image4.fields.file.url}
+                    src={post.fields?.image4?.fields?.file.url}
                     alt={completedProject?.fields?.image4.fields?.description}
                   />
                 </div>
