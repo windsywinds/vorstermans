@@ -2,19 +2,21 @@
 Samuel Windsor
 Student ID: 20220552
 202205522@mywhitecliffe.com
+live version available: https://vorstermans.netlify.app/ (not currently up to date, will not work)
 
 This project uses:
-React (Javascript framework)
+React.js (Javascript framework)
 Contentful (CMS)
 Emotion (CSS framework)
 bootstrap (CSS framework - access via CDN)
+
 
 Please run:
 
 npm i 
 npm start
 
-live version available: https://vorstermans.netlify.app/ (not currently up to date, will not work)
+
 
 
 Package.json:  
