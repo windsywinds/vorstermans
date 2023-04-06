@@ -14,7 +14,7 @@ const Contact = () => {
           <p>Send us a message!</p>
           <form
             target="_blank"
-            action="https://formsubmit.co/20220552@mywhitecliffe.com"
+            action="https://formsubmit.co/d9b3fdc8b517c63d16f76d6289e2fe2b"
             method="POST"
           >
             <div className="form-group">

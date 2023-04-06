@@ -13,8 +13,6 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Nav />}>
-            {" "}
-            {/*top route will load and be used to define links*/}
             <Route path="/project/:id" element={<PortfolioItem />} />
             <Route path="/Home" element={<Home />} />
             <Route path="About" element={<About />} />

@@ -111,7 +111,7 @@ a:hover {
   width: 100vh;
 }
 .carousel-item {
-
+  /*targets coontent inside like title */
   height: 100vh;
   width: 100vh;
 }
@@ -119,14 +119,12 @@ a:hover {
   height: 100vh;
   width: 100vh;
   position: absolute;
-
 }
 
 .splash-pic {
   object-fit: contain;
   height: 100%;
 }
-
 .home-mob {
   display: none;
 }
@@ -134,23 +132,36 @@ a:hover {
 ///   Portfolio List page
 //////////*/
 .port-item {
-  padding-top: 3vw;
-
+  padding-top: 1rem;
   padding-right: 5vw;
-
-  padding-bottom: 1vw;
+  padding-bottom: 2rem;
   text-align: left;
+  
+
+}
+.project-entry {
+  border-radius: 30px;
+  padding: 1rem;
+  padding-bottom: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+  background-color: #112237;
+  margin-top: 1rem;
+}
+.project-entry:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: all 1s;
 }
 .port-images {
   display: flex;
   flex-direction: row;
-
   justify-content: space-around;
-  gap: 2rem;
+  
+  gap: 1rem;
 }
 .portimage {
   width: 100%;
   object-fit: contain;
+  border-radius: 20px;
 }
 .port-title {
   color: #e65624;

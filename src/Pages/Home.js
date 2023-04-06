@@ -12,10 +12,15 @@ const Home = () => {
     <div className="home-wrapper">
       <div className="home-pc">
         <div
-          id="myCarousel" className="carousel slide carousel-fade"
-          data-bs-ride="carousel">
+          id="myCarousel"
+          className="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
           <ol className="carousel-indicators">
-            <li data-bs-target="#myCarousel" data-bs-slide-to="0" className="active"
+            <li
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="0"
+              className="active"
             ></li>
             <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
           </ol>

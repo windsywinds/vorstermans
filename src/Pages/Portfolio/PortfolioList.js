@@ -78,7 +78,7 @@ const PortfolioList = () => {
               </div>
               <div className="port-slug">
                 <div>
-                  <h5>{post.fields.slug}</h5>
+                  <h6>{post.fields.slug}</h6>
                 </div>
               </div>
             </NavLink>
